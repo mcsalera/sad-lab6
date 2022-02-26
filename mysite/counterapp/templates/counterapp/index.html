@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<head>
+    <title>Lab 2 - Main Page</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'counterapp/css/style.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="full super-center-grid">
+    <div class="super-center-grid main-layout default-shadow">
+        <h1>SAD Lab 6</h1>
+        <a href="{% url 'counterapp:counter' %}">Counter</a>
+    </div>
+
+</body>
